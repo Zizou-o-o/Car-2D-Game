@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 60de94393e6120342aad358d0b3bc7e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 266463514593925134
+    second: Roads Final Strips_0
+  - first:
+      213: -9102713749880426752
+    second: Roads Final Strips_1
+  - first:
+      213: -7771784440676440162
+    second: Roads Final Strips_2
+  - first:
+      213: 4360891375852504586
+    second: Roads Final Strips_3
+  - first:
+      213: 6324741712913852399
+    second: Roads Final Strips_4
+  - first:
+      213: -4937243773720580952
+    second: Roads Final Strips_5
+  - first:
+      213: -5499090741746699965
+    second: Roads Final Strips_6
+  - first:
+      213: 1582115010153347909
+    second: Roads Final Strips_7
+  - first:
+      213: 5862051700815997595
+    second: Roads Final Strips_8
+  - first:
+      213: -4702376720555341082
+    second: Roads Final Strips_9
+  - first:
+      213: -103148705126686965
+    second: Roads Final Strips_10
+  - first:
+      213: -3284829141591035762
+    second: Roads Final Strips_11
+  - first:
+      213: -5492168724946080261
+    second: Roads Final Strips_12
+  - first:
+      213: 1137183438888004639
+    second: Roads Final Strips_13
+  - first:
+      213: 1388893536007502925
+    second: Roads Final Strips_14
+  - first:
+      213: 3633893038108103286
+    second: Roads Final Strips_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Roads Final Strips_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 902
+        width: 163
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0819fc972ba2b300800000000000000
+      internalID: 266463514593925134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 912
+        width: 174
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f205e921aaca180800000000000000
+      internalID: -9102713749880426752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 906
+        width: 171
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97a2965a33152490800000000000000
+      internalID: -7771784440676440162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 900
+        width: 160
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06c0c1f99ff48c30800000000000000
+      internalID: 4360891375852504586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_4
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 897
+        width: 159
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe76356f31ff5c750800000000000000
+      internalID: 6324741712913852399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_5
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 688
+        width: 158
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac20e942f26b7bb0800000000000000
+      internalID: -4937243773720580952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_6
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 693
+        width: 168
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3417c861b1e4fa3b0800000000000000
+      internalID: -5499090741746699965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_7
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 687
+        width: 170
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bf006283dc4f510800000000000000
+      internalID: 1582115010153347909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 481
+        width: 157
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9aac12a6f03a5150800000000000000
+      internalID: 5862051700815997595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_9
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 485
+        width: 171
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea8b33794dcdbeb0800000000000000
+      internalID: -4702376720555341082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_10
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 325
+        width: 288
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fd1e79cca819ef0800000000000000
+      internalID: -103148705126686965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_11
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 339
+        width: 152
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e807d9bac41f962d0800000000000000
+      internalID: -3284829141591035762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 297
+        width: 171
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd2417b4a5e7c3b0800000000000000
+      internalID: -5492168724946080261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 284
+        width: 157
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c6067005618cf00800000000000000
+      internalID: 1137183438888004639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_14
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 11
+        width: 287
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c3094ff47564310800000000000000
+      internalID: 1388893536007502925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roads Final Strips_15
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 119
+        width: 258
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672d238077e2e6230800000000000000
+      internalID: 3633893038108103286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Roads Final Strips_0: 266463514593925134
+      Roads Final Strips_1: -9102713749880426752
+      Roads Final Strips_10: -103148705126686965
+      Roads Final Strips_11: -3284829141591035762
+      Roads Final Strips_12: -5492168724946080261
+      Roads Final Strips_13: 1137183438888004639
+      Roads Final Strips_14: 1388893536007502925
+      Roads Final Strips_15: 3633893038108103286
+      Roads Final Strips_2: -7771784440676440162
+      Roads Final Strips_3: 4360891375852504586
+      Roads Final Strips_4: 6324741712913852399
+      Roads Final Strips_5: -4937243773720580952
+      Roads Final Strips_6: -5499090741746699965
+      Roads Final Strips_7: 1582115010153347909
+      Roads Final Strips_8: 5862051700815997595
+      Roads Final Strips_9: -4702376720555341082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
