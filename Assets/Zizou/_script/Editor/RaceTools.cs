@@ -42,11 +42,32 @@ public static class RaceTools
         }
 
         EnsureMarker();
+        EnsurePositionManager();
 
         EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-        Debug.Log("[Race] Race Manager ready, " + cars + " car(s) got a LapTracker and the " +
-                  "next-checkpoint marker is in the scene. Save the scene (Ctrl+S) and press Play.");
+        Debug.Log("[Race] Race Manager ready, " + cars + " car(s) got a LapTracker, the " +
+                  "next-checkpoint marker and the Position Manager are in the scene. " +
+                  "Save the scene (Ctrl+S) and press Play.");
         Selection.activeObject = manager;
+    }
+
+    [MenuItem("Tools/Car2D/Race/Create Position Manager", false, 25)]
+    static void CreatePositionManager()
+    {
+        RacePositionManager existing = Object.FindFirstObjectByType<RacePositionManager>();
+        if (existing != null)
+        {
+            Selection.activeGameObject = existing.gameObject;
+            Debug.Log("[Race] A Position Manager already exists - selected it.");
+            return;
+        }
+
+        RacePositionManager positions = EnsurePositionManager();
+        Selection.activeGameObject = positions.gameObject;
+        EditorSceneManager.MarkSceneDirty(positions.gameObject.scene);
+        Debug.Log("[Race] Position Manager created. It ranks every racer by distance along the racing " +
+                  "line and shows the standings while playing. Its API: " +
+                  "RacePositionManager.Instance.GetPosition(lapTracker) / .Leader / .Last / .Standings.");
     }
 
     [MenuItem("Tools/Car2D/Race/Create Next Checkpoint Marker", false, 24)]
@@ -86,6 +107,25 @@ public static class RaceTools
         GameObject markerObject = new GameObject("Next Checkpoint Marker");
         Undo.RegisterCreatedObjectUndo(markerObject, "Create Next Checkpoint Marker");
         return markerObject.AddComponent<NextCheckpointMarker>();
+    }
+
+    internal static RacePositionManager EnsurePositionManager()
+    {
+        RacePositionManager positions = Object.FindFirstObjectByType<RacePositionManager>();
+        if (positions != null)
+        {
+            if (positions.path == null)
+                positions.path = Object.FindFirstObjectByType<RacePath>();
+
+            return positions;
+        }
+
+        GameObject positionsObject = new GameObject("Position Manager");
+        Undo.RegisterCreatedObjectUndo(positionsObject, "Create Position Manager");
+
+        positions = positionsObject.AddComponent<RacePositionManager>();
+        positions.path = Object.FindFirstObjectByType<RacePath>();
+        return positions;
     }
 
     [MenuItem("Tools/Car2D/Race/Log Checkpoint Order", false, 23)]

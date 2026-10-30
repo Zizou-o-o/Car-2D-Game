@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 4579315}
   - component: {fileID: 4579314}
   - component: {fileID: 4579313}
+  - component: {fileID: 4579320}
   m_Layer: 5
   m_Name: AI Car 4
   m_TagString: Untagged
@@ -323,6 +324,42 @@ Transform:
   - {fileID: 447657832}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4579320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4579312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4334254d8f09d7f42a63ed6cf46f48d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarEffects
+  minDriftSpeed: 3.5
+  driftLateralSpeed: 3.2
+  driftSlipAngle: 24
+  skidTime: 1.5
+  skidWidth: 0.07
+  skidColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.8}
+  smokeColor: {r: 1, g: 1, b: 1, a: 0.5}
+  smokeRate: 26
+  smokeSize: 0.2
+  smokeLifetime: 0.7
+  dustColor: {r: 0.55, g: 0.44, b: 0.3, a: 0.9}
+  dustRate: 34
+  minDustSpeed: 1
+  dustSize: 0.16
+  dustLifetime: 0.45
+  minSparkImpact: 1.5
+  sparkCount: 14
+  sparkSpeed: 2.4
+  sparkSize: 0.12
+  sparkLifetime: 0.32
+  sparkCooldown: 0.07
+  sparkColor: {r: 1, g: 0.72, b: 0.18, a: 1}
+  maxHitShake: 0.06
+  hitShakeLength: 0.16
 --- !u!1 &5026246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,6 +1859,7 @@ GameObject:
   - component: {fileID: 25323468}
   - component: {fileID: 25323467}
   - component: {fileID: 25323466}
+  - component: {fileID: 25323473}
   m_Layer: 5
   m_Name: AI Car 3
   m_TagString: Untagged
@@ -2011,6 +2049,42 @@ Transform:
   - {fileID: 439784328}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &25323473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25323465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4334254d8f09d7f42a63ed6cf46f48d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarEffects
+  minDriftSpeed: 3.5
+  driftLateralSpeed: 3.2
+  driftSlipAngle: 24
+  skidTime: 1.5
+  skidWidth: 0.07
+  skidColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.8}
+  smokeColor: {r: 1, g: 1, b: 1, a: 0.5}
+  smokeRate: 26
+  smokeSize: 0.2
+  smokeLifetime: 0.7
+  dustColor: {r: 0.55, g: 0.44, b: 0.3, a: 0.9}
+  dustRate: 34
+  minDustSpeed: 1
+  dustSize: 0.16
+  dustLifetime: 0.45
+  minSparkImpact: 1.5
+  sparkCount: 14
+  sparkSpeed: 2.4
+  sparkSize: 0.12
+  sparkLifetime: 0.32
+  sparkCooldown: 0.07
+  sparkColor: {r: 1, g: 0.72, b: 0.18, a: 1}
+  maxHitShake: 0.06
+  hitShakeLength: 0.16
 --- !u!1 &26550127
 GameObject:
   m_ObjectHideFlags: 0
@@ -3233,6 +3307,7 @@ GameObject:
   - component: {fileID: 144180010}
   - component: {fileID: 144180009}
   - component: {fileID: 144180008}
+  - component: {fileID: 144180015}
   m_Layer: 5
   m_Name: AI Car 2
   m_TagString: Untagged
@@ -3422,6 +3497,42 @@ Transform:
   - {fileID: 236135556}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &144180015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144180007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4334254d8f09d7f42a63ed6cf46f48d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarEffects
+  minDriftSpeed: 3.5
+  driftLateralSpeed: 3.2
+  driftSlipAngle: 24
+  skidTime: 1.5
+  skidWidth: 0.07
+  skidColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.8}
+  smokeColor: {r: 1, g: 1, b: 1, a: 0.5}
+  smokeRate: 26
+  smokeSize: 0.2
+  smokeLifetime: 0.7
+  dustColor: {r: 0.55, g: 0.44, b: 0.3, a: 0.9}
+  dustRate: 34
+  minDustSpeed: 1
+  dustSize: 0.16
+  dustLifetime: 0.45
+  minSparkImpact: 1.5
+  sparkCount: 14
+  sparkSpeed: 2.4
+  sparkSize: 0.12
+  sparkLifetime: 0.32
+  sparkCooldown: 0.07
+  sparkColor: {r: 1, g: 0.72, b: 0.18, a: 1}
+  maxHitShake: 0.06
+  hitShakeLength: 0.16
 --- !u!1 &154480783
 GameObject:
   m_ObjectHideFlags: 0
@@ -3437,6 +3548,7 @@ GameObject:
   - component: {fileID: 154480786}
   - component: {fileID: 154480785}
   - component: {fileID: 154480784}
+  - component: {fileID: 154480791}
   m_Layer: 5
   m_Name: AI Car 6
   m_TagString: Untagged
@@ -3626,6 +3738,42 @@ Transform:
   - {fileID: 1028525382}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &154480791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154480783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4334254d8f09d7f42a63ed6cf46f48d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarEffects
+  minDriftSpeed: 3.5
+  driftLateralSpeed: 3.2
+  driftSlipAngle: 24
+  skidTime: 1.5
+  skidWidth: 0.07
+  skidColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.8}
+  smokeColor: {r: 1, g: 1, b: 1, a: 0.5}
+  smokeRate: 26
+  smokeSize: 0.2
+  smokeLifetime: 0.7
+  dustColor: {r: 0.55, g: 0.44, b: 0.3, a: 0.9}
+  dustRate: 34
+  minDustSpeed: 1
+  dustSize: 0.16
+  dustLifetime: 0.45
+  minSparkImpact: 1.5
+  sparkCount: 14
+  sparkSpeed: 2.4
+  sparkSize: 0.12
+  sparkLifetime: 0.32
+  sparkCooldown: 0.07
+  sparkColor: {r: 1, g: 0.72, b: 0.18, a: 1}
+  maxHitShake: 0.06
+  hitShakeLength: 0.16
 --- !u!1 &160143553
 GameObject:
   m_ObjectHideFlags: 0
@@ -6365,6 +6513,7 @@ GameObject:
   - component: {fileID: 492823342}
   - component: {fileID: 492823341}
   - component: {fileID: 492823340}
+  - component: {fileID: 492823347}
   m_Layer: 5
   m_Name: AI Car 5
   m_TagString: Untagged
@@ -6554,6 +6703,42 @@ Transform:
   - {fileID: 1658924605}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &492823347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492823339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4334254d8f09d7f42a63ed6cf46f48d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarEffects
+  minDriftSpeed: 3.5
+  driftLateralSpeed: 3.2
+  driftSlipAngle: 24
+  skidTime: 1.5
+  skidWidth: 0.07
+  skidColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.8}
+  smokeColor: {r: 1, g: 1, b: 1, a: 0.5}
+  smokeRate: 26
+  smokeSize: 0.2
+  smokeLifetime: 0.7
+  dustColor: {r: 0.55, g: 0.44, b: 0.3, a: 0.9}
+  dustRate: 34
+  minDustSpeed: 1
+  dustSize: 0.16
+  dustLifetime: 0.45
+  minSparkImpact: 1.5
+  sparkCount: 14
+  sparkSpeed: 2.4
+  sparkSize: 0.12
+  sparkLifetime: 0.32
+  sparkCooldown: 0.07
+  sparkColor: {r: 1, g: 0.72, b: 0.18, a: 1}
+  maxHitShake: 0.06
+  hitShakeLength: 0.16
 --- !u!1 &493398381
 GameObject:
   m_ObjectHideFlags: 0
@@ -7329,6 +7514,7 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: -10}
   lookaheadDistance: 3
   carRigidbody2D: {fileID: 927349877}
+  shakeDuration: 0.16
 --- !u!1 &526842684
 GameObject:
   m_ObjectHideFlags: 0
@@ -397035,6 +397221,8 @@ GameObject:
   - component: {fileID: 927349879}
   - component: {fileID: 927349880}
   - component: {fileID: 927349881}
+  - component: {fileID: 927349882}
+  - component: {fileID: 927349883}
   m_Layer: 5
   m_Name: Care'
   m_TagString: Untagged
@@ -397195,6 +397383,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LapTracker
   racerName: 
   isPlayer: 1
+--- !u!114 &927349882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927349874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4334254d8f09d7f42a63ed6cf46f48d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarEffects
+  minDriftSpeed: 3.5
+  driftLateralSpeed: 3.2
+  driftSlipAngle: 24
+  skidTime: 1.5
+  skidWidth: 0.07
+  skidColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.8}
+  smokeColor: {r: 1, g: 1, b: 1, a: 0.5}
+  smokeRate: 26
+  smokeSize: 0.2
+  smokeLifetime: 0.7
+  dustColor: {r: 0.55, g: 0.44, b: 0.3, a: 0.9}
+  dustRate: 34
+  minDustSpeed: 1
+  dustSize: 0.16
+  dustLifetime: 0.45
+  minSparkImpact: 1.5
+  sparkCount: 14
+  sparkSpeed: 2.4
+  sparkSize: 0.12
+  sparkLifetime: 0.32
+  sparkCooldown: 0.07
+  sparkColor: {r: 1, g: 0.72, b: 0.18, a: 1}
+  maxHitShake: 0.06
+  hitShakeLength: 0.16
+--- !u!114 &927349883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927349874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b6b4c2f692ce164782aff4228afc83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpeedEffects
+  showAt: 0.5
+  fullAt: 0.95
+  response: 3.5
+  windColor: {r: 0.92, g: 0.96, b: 1, a: 1}
+  windAlpha: 0
+  windParticlesPerSecond: 90
+  windSize: 0.45
+  windLifetime: 0.32
+  borderColor: {r: 0, g: 0, b: 0, a: 1}
+  borderAlpha: 0.7
 --- !u!1 &932342671
 GameObject:
   m_ObjectHideFlags: 0
@@ -399309,6 +399555,7 @@ GameObject:
   - component: {fileID: 1180340064}
   - component: {fileID: 1180340063}
   - component: {fileID: 1180340062}
+  - component: {fileID: 1180340069}
   m_Layer: 5
   m_Name: AI Car 1
   m_TagString: Untagged
@@ -399498,6 +399745,42 @@ Transform:
   - {fileID: 687395825}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1180340069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180340061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4334254d8f09d7f42a63ed6cf46f48d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarEffects
+  minDriftSpeed: 3.5
+  driftLateralSpeed: 3.2
+  driftSlipAngle: 24
+  skidTime: 1.5
+  skidWidth: 0.07
+  skidColor: {r: 0.07, g: 0.07, b: 0.07, a: 0.8}
+  smokeColor: {r: 1, g: 1, b: 1, a: 0.5}
+  smokeRate: 26
+  smokeSize: 0.2
+  smokeLifetime: 0.7
+  dustColor: {r: 0.55, g: 0.44, b: 0.3, a: 0.9}
+  dustRate: 34
+  minDustSpeed: 1
+  dustSize: 0.16
+  dustLifetime: 0.45
+  minSparkImpact: 1.5
+  sparkCount: 14
+  sparkSpeed: 2.4
+  sparkSize: 0.12
+  sparkLifetime: 0.32
+  sparkCooldown: 0.07
+  sparkColor: {r: 1, g: 0.72, b: 0.18, a: 1}
+  maxHitShake: 0.06
+  hitShakeLength: 0.16
 --- !u!1 &1180532393
 GameObject:
   m_ObjectHideFlags: 0
@@ -403812,6 +404095,55 @@ PolygonCollider2D:
       - {x: 4.03125, y: -2.375}
       - {x: 4.03125, y: 2.375}
   m_UseDelaunayMesh: 1
+--- !u!1 &1743096069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1743096071}
+  - component: {fileID: 1743096070}
+  m_Layer: 0
+  m_Name: Position Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1743096070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743096069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a1f6781011ca641a0bce490a8cb515, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RacePositionManager
+  path: {fileID: 1053398183}
+  showDebugOverlay: 1
+  overlayOffset: {x: 240, y: 10}
+  showGaps: 1
+  teleportThreshold: 0.25
+--- !u!4 &1743096071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743096069}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1756569537
 GameObject:
   m_ObjectHideFlags: 0
@@ -407256,3 +407588,4 @@ SceneRoots:
   - {fileID: 4579319}
   - {fileID: 492823346}
   - {fileID: 154480790}
+  - {fileID: 1743096071}

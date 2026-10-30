@@ -185,8 +185,7 @@ public class RacePath : MonoBehaviour
     }
 
     /// <summary>Closest point on the line to a world position.</summary>
-    public Vector3 NearestPoint(Vector3 worldPosition, int hintSegment = -1)
-    {
+    public Vector3 NearestPoint(Vector3 worldPosition, int hintSegment = -1)    {
         EnsureCache();
 
         if (points.Count == 0)
@@ -202,7 +201,31 @@ public class RacePath : MonoBehaviour
         return Vector3.Lerp(PointAt(located), PointAt(located + 1), t);
     }
 
-    /// <summary>Segment whose middle is closest to a world position.</summary>
+    /// <summary>
+    /// Distance along the line (0..TotalLength) of the point closest to
+    /// <paramref name="worldPosition"/>. Used to rank racers between checkpoints.
+    /// </summary>
+    public float ArcAt(Vector3 worldPosition, int hintSegment = -1)
+    {
+        return ArcAt(worldPosition, hintSegment, out int _);
+    }
+
+    /// <inheritdoc cref="ArcAt(Vector3,int)"/>
+    public float ArcAt(Vector3 worldPosition, int hintSegment, out int nearestSegment)
+    {
+        EnsureCache();
+
+        nearestSegment = -1;
+
+        if (segmentCount == 0)
+            return 0f;
+
+        nearestSegment = FindClosestSegment(worldPosition, hintSegment);
+
+        return WrapArc(ProjectToArc(worldPosition, nearestSegment, out float _));
+    }
+
+    /// <summary>Segment of the line closest to a world position.</summary>
     public int FindClosestSegment(Vector3 worldPosition, int hint = -1)
     {
         EnsureCache();
@@ -215,8 +238,26 @@ public class RacePath : MonoBehaviour
 
         if (hint >= 0 && hint < segmentCount)
         {
-            SearchSegments(worldPosition, Mathf.Max(0, hint - 3), Mathf.Min(segmentCount - 1, hint + 3),
-                ref best, ref bestSqr);
+            // Look a few segments around the hint. On a closed line the window must wrap
+            // around the start/finish seam too, otherwise a car crossing the line keeps
+            // projecting onto the last segment instead of the first one.
+            for (int offset = -3; offset <= 3; offset++)
+            {
+                int index = hint + offset;
+
+                if (isClosed)
+                    index = ((index % segmentCount) + segmentCount) % segmentCount;
+                else if (index < 0 || index >= segmentCount)
+                    continue;
+
+                float distance = SqrDistanceToSegment(worldPosition, index);
+
+                if (distance < bestSqr)
+                {
+                    bestSqr = distance;
+                    best = index;
+                }
+            }
 
             // The hint is only useful while the car is near the line. If it is not, the
             // car was moved (respawn, AI spawn behind the line...) so search everything.
